@@ -44,8 +44,7 @@ a:hover{
 }
 .btn-primary{
     background-color: #b33939;
-    color:beige;
-    cursor: pointer;
+    color:beige;    cursor: pointer;
 }
 .btn-primary:hover{
     color:beige;
@@ -91,7 +90,7 @@ line-height: 150px;
 css for food search section 
 */
 .food-search{
-    background-image: url(../Images/bg.jpg);
+    background-image: url(../Images/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -115,10 +114,11 @@ css for food search section
     margin:2%;
 }
 .food-menu{
-    background-color: #ececec;
+    background-color: #ececec93;
     padding: 4% 0;
 }
 .food-menu-box{
+    border: 1px solid black;
     width: 43%;
     margin: 1%; 
     float: left;
@@ -150,11 +150,58 @@ css for food search section
 }
 
 /* CSS for Social */
-.social-ul{
+.social ul{
    list-style-type: none; 
 }
 
-.social-ul-li{
+.social ul li{
     display: inline;
     padding: 1%
+}
+/* CSS for mobile size */
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto; 
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width:90%;
+        margin-bottom: 3%;
+        padding:2%;
+    }
+    .btn{
+        width:91%;
+        padding: 2%
+        }
+    .boxes{
+        width:90%; 
+        margin: 4% auto;
+
+    }
+    .food-search{
+        padding: 10% 0; 
+
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+
+    }
+    .food-menu{
+        padding: 20% auto
+    }
+    .food-menu-box{
+    width: 90%;
+    padding:5%;
+    margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
 }
