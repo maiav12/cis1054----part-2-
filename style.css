@@ -113,3 +113,9 @@ css for food search section
     float: left;
     margin:2%;
 }
+
+/*CSS for food menue */
+
+.food-menu-box{
+    border: 1px solid black;
+}
